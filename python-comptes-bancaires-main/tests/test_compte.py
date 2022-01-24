@@ -1,7 +1,6 @@
 from src.account import Account, CurrentAccount
 from unittest import TestCase
 
-
 class TestCC(TestCase):
 
     def setUp(self):

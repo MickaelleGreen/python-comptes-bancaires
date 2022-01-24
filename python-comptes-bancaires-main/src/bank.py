@@ -1,7 +1,6 @@
 from customer import Customer
 from account import Account
 
-
 class Bank:
     def __init__(self, bank_name, customers):
         self.customers = [Customer]

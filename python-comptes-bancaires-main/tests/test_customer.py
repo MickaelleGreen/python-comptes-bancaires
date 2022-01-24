@@ -19,7 +19,6 @@ class TestCustomer(TestCase):
 
 
     # test to remove account
-
     def test_delete_account(self, null=None):
         if customer.current_account != null:
             self.run(bank.delete_account)
